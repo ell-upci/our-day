@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbfaf8">
+  <meta name="description" content="A little letter made with love, just for you.">
+  <title>A Little Letter for You</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="page-shell">
+    <section class="welcome" aria-labelledby="welcome-title">
+      <p class="eyebrow">A LITTLE SOMETHING FOR YOU</p>
+      <h1 id="welcome-title">For my favorite person.</h1>
+      <p class="subtitle">a little letter, made with love <span aria-hidden="true">♡</span></p>
+
+      <div class="envelope-stage" id="envelope-stage">
+        <div class="envelope" id="envelope" aria-hidden="true">
+          <div class="envelope-back"></div>
+          <div class="letter-peek"></div>
+          <div class="envelope-front"></div>
+          <div class="envelope-flap"></div>
+          <span class="envelope-heart" aria-hidden="true">♡</span>
+        </div>
+      </div>
+      <button class="button button-primary" id="open-letter" type="button" aria-controls="letter-section" aria-expanded="false">Open your letter <span aria-hidden="true">↗</span></button>
+      <p class="tiny-note">just a little something from adek</p>
+    </section>
+
+    <section class="letter-section hidden" id="letter-section" aria-labelledby="letter-heading" tabindex="-1" inert>
+      <article class="letter-card">
+        <p class="date-line">16 SEPTEMBER 2026 — OUR DAY</p>
+        <div class="thin-rule" aria-hidden="true"></div>
+        <h2 id="letter-heading">Happy first month, abang.</h2>
+        <div class="letter-copy">
+          <p>Hi abang,</p>
+          <p>Happy first mensive to us. This little gift is arriving a bit late, hwhwhw, but I still wanted to make something that feels like <em>us</em> and give you a small reminder of how much this first month has meant to me.</p>
+          <p>I still think about how we first met and how something that started so casually slowly became a part of my everyday life. Somewhere between our conversations, the silly moments, and the things we started sharing, talking to you became something I genuinely looked forward to. I didn’t expect those little chats to mean this much, but I’m really glad they did.</p>
+          <p>Thank you for being here, for making my days feel lighter, and for giving me reasons to smile at my screen. I’m grateful for the way we can talk, laugh, and learn a little more about each other. Even ordinary moments feel nicer when I get to share them with you.</p>
+          <p>I know we’re still learning about each other, and I don’t expect us to get everything right all the time. I just hope we keep choosing honesty, patience, and understanding. If something feels wrong, let’s talk about it; if life gets busy, let’s keep making room for each other. I want us to grow together, one little step at a time.</p>
+          <p>One month is only the beginning, but it’s already given adek so many sweet things to be thankful for. I’m happy it’s you, abang. Thank you for being part of my days.</p>
+          <p class="signature">with love,<br><span>your adek ♡</span></p>
+        </div>
+        <div class="surprise-prompt">
+          <p>wait, there's one more thing...</p>
+          <button class="button button-outline" id="show-surprise" type="button" aria-controls="surprise-section" aria-expanded="false">One last thing ♡</button>
+        </div>
+      </article>
+    </section>
+
+    <section class="surprise-section hidden" id="surprise-section" aria-labelledby="surprise-heading" tabindex="-1" inert>
+      <div class="surprise-card">
+        <div class="heart-orbit" aria-hidden="true"><span class="heart">♥</span><span class="orbit-dot dot-one"></span><span class="orbit-dot dot-two"></span></div>
+        <p class="eyebrow">A LITTLE EXTRA, JUST FOR YOU</p>
+        <h2 id="surprise-heading">You're my favorite part.</h2>
+        <p class="surprise-message">Out of all the unexpected things that can happen, meeting you is one I’m especially glad about. I’m thankful our paths crossed, thankful we kept talking, and thankful that I get to know you a little more every day. I hope there are plenty more tiny stories, random conversations, and happy memories waiting for us.</p>
+        <p class="closing-line">one month down, more little moments to go. <span aria-hidden="true">♡</span></p>
+      </div>
+    </section>
+
+    <footer>made with love, just for you <span aria-hidden="true">♡</span></footer>
+  </main>
+</body>
+</html>
